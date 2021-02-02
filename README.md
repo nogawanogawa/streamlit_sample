@@ -20,9 +20,25 @@ cd env/elasticsearch
 
 # Usage
 
+## prepare
+
 ```bash
 docker-compose up
 ```
+
+Wait for standing up of elasticsearch, and then type command below.
+
+```bash
+docker-compose run etl python main.py run 
+```
+
+## server run 
+
+```bash
+docker-compose up
+```
+
+Wait for standing up of elasticsearch, and then access at http://localhost:8501
 
 # License
 
